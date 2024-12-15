@@ -1,0 +1,80 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__container {
+    width: 661px;
+    height: 763px;
+    display: flex;
+    justify-content: center;
+    background-color: #C4C4C4;
+    position: relative;
+}
+
+.app__input {
+    width: 484px;
+    height: 61px;
+    margin-top: 62px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    border: none;
+    border-radius: 0px;
+    padding: 0 0 0 16px;
+}
+
+.app__autocomplete-list {
+    width: 500px;
+    margin-top: auto;
+    background: #E3E3E3;
+    position: absolute;
+    padding: 0;
+    top: 125px;
+    list-style: none;
+}
+
+.autocomplete-item {
+    height: 44px;
+    font-size: 30px;
+    border: 2px solid #000000;
+    padding: 0 16px;
+}
+
+.autocomplete-item:hover {
+    background-color: #65CDF9;
+}
+
+.result {
+    position: absolute;
+    top: 410px; 
+    width: 500px;
+    background-color: #E27BEB;
+}
+
+.repo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000000;
+    width: 500px;
+    height: 101px;
+}
+
+.repo__info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.repo__text {
+    margin: 0 16px;
+}
+
+.repo__delete {
+    background-color: transparent;
+    border: none;
+    padding-right: 16px;
+}
+
